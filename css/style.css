@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #191919;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    background-color: #111;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.score-value {
+    font-weight: 600;
+    font-size: 3rem;
+    display: block;
+    margin-top: -20px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.final-score {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#username {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #ffffff2a;
+    border-radius: 20px;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.btn-play:hover {
+    background-color: #cacaca;
+}
+
+.material-symbols-outlined {
+    filter: invert(70%);
+    margin-right: 5px;
+    transform: rotate(270deg);
+}
+
+.score-list {
+    margin: 100px 0px 0px 50px;
+    display: flex;
+    background-color: #131313;
+    border-radius: 20px;
+    padding: 20px;
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.score-users {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    padding-inline: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.user-container tr{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px #777 solid;
+    border-right: 1px #777 solid;
+    border-radius: 15px;
+}
+
+.score-subtitle {
+    border-bottom: 1px solid #333333;
+}
+
+.teste{
+    color: #bdbdbd;
+}

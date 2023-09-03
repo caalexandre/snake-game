@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <main>
+        <div class="score">
+            Score: <span class="score-value">0</span>
+        </div>
+
+        <div class="menu-screen">
+            <span class="game-over">game over</span>
+            <span class="final-score">score <span>0</span></span>
+            <input id="username" type="text" placeholder="Digite seu nome aqui..." maxlength="10">
+            <button class="btn-play">
+                <span class="material-symbols-outlined">
+                    replay
+                </span>
+                Jogar Novamente
+            </button>
+        </div>
+        <canvas width="600px" height="600px"></canvas>
+    </main>
+    <div class="score-list">
+        <h1>Ranking</h1>
+        <table class="score-users">
+            <thead class="score-subtitle">
+                <tr>
+                    <td>Player</td>
+                    <td>Score</td>
+                </tr>
+            </thead>
+            <tbody class="user-container">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
